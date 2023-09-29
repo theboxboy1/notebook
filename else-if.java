@@ -1,7 +1,8 @@
 class Main { 
   public static void main(String[] args) {
+   // initializing variable 's'
     int s = 50;
-    
+    // else if block 
     if (s > 90) {
       System.out.println("A");
     } else if (s > 85) {
