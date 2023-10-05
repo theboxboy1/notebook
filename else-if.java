@@ -1,8 +1,9 @@
 class Main { 
   public static void main(String[] args) {
-   // initializing variable 's'
+    // initializing variable 's'
     int s = 50;
-    // else if block 
+    
+    // if-else block 
     if (s > 90) {
       System.out.println("A");
     } else if (s > 85) {
@@ -13,6 +14,8 @@ class Main {
       System.out.println("B-");
     } else if (s > 65) {
       System.out.println("C");
+    } else if (s > 50) { // Added missing parentheses and braces here
+      System.out.println("D");
     } else {
       System.out.println("F");
     }
