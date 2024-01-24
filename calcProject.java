@@ -7,7 +7,7 @@
 
 /**
  *
- * @author mehtab
+ * @author zakariyayahmad
  */
 public class NewJFrame extends javax.swing.JFrame {
 
