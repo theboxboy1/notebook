@@ -50,8 +50,13 @@ public class NewJFrame extends javax.swing.JFrame {
                  
                 case 4 -> {
                     //the fourth case does division
-                    ans= num / Double.valueOf(DisplayField.getText());
-                    DisplayField.setText(Double.toString(ans)); 
+            double divisor = Double.valueOf(DisplayField.getText());
+            if (divisor != 0) {  // if divisor is not 0, the program continues
+                ans = num / divisor;
+                DisplayField.setText(Double.toString(ans));
+            } else { // prints error when divisor equals to 0
+                DisplayField.setText("Error: Division by zero");
+            }
             }
         }
     
